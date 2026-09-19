@@ -1,5 +1,7 @@
 # Deepal Apps
 
+### 📣 [Telegram-канал: @deepal_tools](https://t.me/deepal_tools) &nbsp;·&nbsp; ❤️ [Поддержать проект](https://t.me/tribute/app?startapp=dPI5)
+
 Каталог приложений, который читает **Deepal Store** на головном устройстве автомобиля.
 
 Здесь только открытые данные: список приложений, их описания, иконки и отпечатки
