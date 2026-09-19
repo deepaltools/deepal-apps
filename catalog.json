@@ -10,10 +10,10 @@
       "description": "Ставит и обновляет приложения для Deepal прямо на головном устройстве. Обновляет и сам себя.",
       "developer": "Deepal Tools",
       "category": "Система",
-      "icon": "https://raw.githubusercontent.com/DeepalTools/deepal-store-releases/main/icons/deepal-store.png",
+      "icon": "https://raw.githubusercontent.com/deepaltools/deepal-apps/main/icons/deepal-store.png",
       "source": {
         "kind": "github-releases",
-        "repo": "DeepalTools/deepal-store-releases",
+        "repo": "deepaltools/deepal-store-releases",
         "prereleases": false,
         "asset": {
           "match": "\\.apk$",
@@ -39,10 +39,10 @@
       "description": "Говорите «Привет, Дипал» и дальше обычными словами: климат, окна, сиденья, музыка, свет, приложения. Распознавание работает без интернета, прямо в машине.",
       "developer": "Deepal Tools",
       "category": "Управление автомобилем",
-      "icon": "https://raw.githubusercontent.com/DeepalTools/deepal-store-releases/main/icons/deepal-voice.png",
+      "icon": "https://raw.githubusercontent.com/deepaltools/deepal-apps/main/icons/deepal-voice.png",
       "source": {
         "kind": "github-releases",
-        "repo": "DeepalTools/deepal-voice-releases",
+        "repo": "deepaltools/deepal-voice-releases",
         "prereleases": false,
         "asset": {
           "match": "\\.apk$",
@@ -68,10 +68,10 @@
       "description": "Проверка и настройка звука по динамикам салона.",
       "developer": "Deepal Tools",
       "category": "Звук",
-      "icon": "https://raw.githubusercontent.com/DeepalTools/deepal-store-releases/main/icons/deepal-speaker.png",
+      "icon": "https://raw.githubusercontent.com/deepaltools/deepal-apps/main/icons/deepal-speaker.png",
       "source": {
         "kind": "github-releases",
-        "repo": "DeepalTools/deepal-speaker-releases",
+        "repo": "deepaltools/deepal-speaker-releases",
         "prereleases": false,
         "asset": {
           "match": "\\.apk$",
