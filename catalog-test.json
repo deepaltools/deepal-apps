@@ -67,39 +67,6 @@
       "links": {
         "channel": "https://t.me/deepal_tools"
       }
-    },
-    {
-      "id": "deepal-speaker",
-      "package": "com.deepalspeaker.app",
-      "name": "Deepal Speaker",
-      "tagline": "Звук наружу через внешний динамик",
-      "description": "Выводит звук на внешний динамик машины. Живой голос с микрофона, заранее записанные фразы и рокот мотора, громкость которого следует за педалью газа.\n\nМотор не глохнет при переходе между экранами: его заводят на всю поездку, а не на время, пока приложение открыто. Свои записи хранятся в избранном и вызываются одним нажатием.\n\nГромкость наружу и в салон настраиваются отдельно, чтобы не пугать салон тем, что слышно снаружи.\n\nПриложение бесплатное, стороннее и к компании Changan отношения не имеет.",
-      "developer": "Deepal Tools",
-      "category": "Звук",
-      "icon": "https://raw.githubusercontent.com/deepaltools/deepal-apps/main/icons/deepal-speaker.png",
-      "source": {
-        "kind": "github-releases",
-        "repo": "deepaltools/deepal-speaker-releases",
-        "prereleases": false,
-        "asset": {
-          "match": "\\.apk$",
-          "abi": [
-            "arm64-v8a"
-          ]
-        }
-      },
-      "requirements": {
-        "minSdk": 30,
-        "abi": [
-          "arm64-v8a"
-        ]
-      },
-      "signature": {
-        "sha256": "DA:6F:9A:2C:41:01:A6:21:C8:08:34:99:C6:88:28:1D:85:ED:16:30:A9:81:92:B7:91:DC:F9:EE:42:92:FF:C9"
-      },
-      "links": {
-        "channel": "https://t.me/deepal_tools"
-      }
     }
   ]
 }
