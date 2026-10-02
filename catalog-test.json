@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-09-19",
+  "updated": "2026-10-02",
   "apps": [
     {
       "id": "deepal-store",
@@ -66,6 +66,73 @@
       },
       "links": {
         "channel": "https://t.me/deepal_tools"
+      }
+    },
+    {
+      "id": "deepal-speaker",
+      "package": "com.deepalspeaker.app",
+      "name": "Deepal Speaker",
+      "tagline": "Звук наружу через внешний динамик",
+      "description": "Выводит звук на внешний динамик машины — тот самый, через который она сигналит снаружи.\n\nДевяносто готовых звуков в девяти разделах: сирены, фразы для прохожих, гудки, мемы, реакции, кусочки из игр и кино, заставки и отдельный раздел «18+». До шести любимых выносятся на панель у края экрана и играют одним нажатием, не открывая приложение: панель висит поверх карты, музыки и чего угодно ещё. Там же кнопка микрофона — говорить наружу можно, не уходя с карты.\n\nЖивое оповещение: что говорите в салоне, то слышно снаружи, с усилением. Громкость микрофона настраивается отдельно.\n\nГромкость наружу и в салон тоже раздельные, чтобы не пугать салон тем, что слышно на улице.\n\nПриложение бесплатное, стороннее и к компании Changan отношения не имеет.",
+      "developer": "Deepal Tools",
+      "category": "Звук",
+      "icon": "https://raw.githubusercontent.com/deepaltools/deepal-apps/main/icons/deepal-speaker.png",
+      "source": {
+        "kind": "github-releases",
+        "repo": "deepaltools/deepal-speaker-releases",
+        "prereleases": false,
+        "asset": {
+          "match": "\\.apk$",
+          "abi": [
+            "arm64-v8a"
+          ]
+        }
+      },
+      "requirements": {
+        "minSdk": 30,
+        "abi": [
+          "arm64-v8a"
+        ]
+      },
+      "signature": {
+        "sha256": "DA:6F:9A:2C:41:01:A6:21:C8:08:34:99:C6:88:28:1D:85:ED:16:30:A9:81:92:B7:91:DC:F9:EE:42:92:FF:C9"
+      },
+      "links": {
+        "channel": "https://t.me/deepal_tools"
+      }
+    },
+    {
+      "id": "yuma-car",
+      "package": "re.muwmix.yumaplayer.car",
+      "name": "Yuma Car",
+      "tagline": "Музыкальный плеер с крупным интерфейсом",
+      "description": "Музыкальный плеер: библиотека YouTube Music, подборки и рекомендации, свои файлы в Hi-Res (FLAC). Без рекламы и подписок.\n\nЭто сборка открытого плеера YumaPlayer (автор MuwMx) с одним изменением по сути: интерфейс примерно в 1,6 раза крупнее, чтобы им было удобно пользоваться на экране машины. Ставится отдельным приложением рядом с оригинальным Yuma, обновляется через магазин.\n\nДля работы нужен интернет.\n\nСборка неофициальная: авторы YumaPlayer к ней отношения не имеют. Исходный код открыт: github.com/deepaltools/yuma-car.",
+      "developer": "MuwMx · сборка Deepal Tools",
+      "category": "Музыка",
+      "icon": "https://raw.githubusercontent.com/deepaltools/deepal-apps/main/icons/yuma-car.png",
+      "source": {
+        "kind": "github-releases",
+        "repo": "deepaltools/yuma-car",
+        "prereleases": false,
+        "asset": {
+          "match": "\\.apk$",
+          "abi": [
+            "arm64-v8a"
+          ]
+        }
+      },
+      "requirements": {
+        "minSdk": 26,
+        "abi": [
+          "arm64-v8a"
+        ]
+      },
+      "signature": {
+        "sha256": "DA:6F:9A:2C:41:01:A6:21:C8:08:34:99:C6:88:28:1D:85:ED:16:30:A9:81:92:B7:91:DC:F9:EE:42:92:FF:C9"
+      },
+      "links": {
+        "channel": "https://t.me/deepal_tools",
+        "source": "https://github.com/deepaltools/yuma-car"
       }
     }
   ]
