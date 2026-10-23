@@ -3,7 +3,7 @@ name: Каталог
 # Этот каталог читают все установленные магазины. Опечатка в нём видна не автору,
 # а людям в машинах, поэтому он проверяется на каждое изменение.
 #
-# Схема 1 (catalog.json, catalog-test.json) — для магазинов 0.23 и старше: только
+# Схема 1 (catalog.json) — для магазинов 0.23 и старше: только
 # релизы GitHub. Схема 2 (catalog-full*.json) — для 0.24 и новее: плюс приложения с
 # сервера Deepal Tools.
 
@@ -22,7 +22,7 @@ jobs:
         run: |
           python3 - <<'PY'
           import json, re, os
-          files = {'catalog.json': 1, 'catalog-test.json': 1, 'catalog-full.json': 2, 'catalog-full-test.json': 2}
+          files = {'catalog.json': 1, 'catalog-full.json': 2}
           for name, schema in files.items():
               if not os.path.exists(name):
                   continue
