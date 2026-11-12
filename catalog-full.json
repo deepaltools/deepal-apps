@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "updated": "2026-10-23",
+  "updated": "2026-11-12",
   "apps": [
     {
       "id": "deepal-store",
@@ -241,6 +241,34 @@
           "hint": "Язык берётся из настроек машины, как в обычном Яндексе."
         }
       ]
+    },
+    {
+      "id": "2gis",
+      "package": "ru.dublgis.dgismobile",
+      "name": "2ГИС",
+      "tagline": "Навигация 2ГИС на лобовой проекции",
+      "description": "2ГИС с крупным интерфейсом под экран машины. Вместе с Deepal Cockpit выводит на лобовую проекцию стрелку манёвра, расстояние, полосы, камеры, лимит скорости и миникарту с автомасштабом.\n\nЯзык — как в настройках машины, сменить его можно в самом 2ГИС.\n\nОфициальный 2ГИС из других магазинов перед установкой нужно удалить: поверх него сборка с другой подписью не встанет. Скачанные в нём карты придётся скачать заново.\n\nДоступен владельцам Deepal Cockpit: магазин берёт лицензию у Cockpit на этой машине.",
+      "developer": "Deepal Tools",
+      "category": "Навигация",
+      "icon": "https://raw.githubusercontent.com/deepaltools/deepal-apps/main/icons/2gis.png",
+      "source": {
+        "kind": "deepaltools",
+        "app": "dgis"
+      },
+      "requirements": {
+        "minSdk": 30,
+        "abi": [
+          "arm64-v8a"
+        ]
+      },
+      "signature": {
+        "sha256": "DA:6F:9A:2C:41:01:A6:21:C8:08:34:99:C6:88:28:1D:85:ED:16:30:A9:81:92:B7:91:DC:F9:EE:42:92:FF:C9"
+      },
+      "signatureSha256": "da6f9a2c4101a621c8083499c688281d85ed1630a98192b791dcf9ee4292ffc9",
+      "links": {
+        "site": "https://deepaltools.com/cockpit/",
+        "channel": "https://t.me/deepal_tools"
+      }
     }
   ]
 }
